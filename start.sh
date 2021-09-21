@@ -1,0 +1,1 @@
+python notifications/app/initial_data_setup.py
