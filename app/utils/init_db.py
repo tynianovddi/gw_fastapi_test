@@ -28,9 +28,6 @@ def init_db():
     user_error_counter = 0
     notification_error_counter = 0
 
-    notification_crud.delete_all(db)
-    notification_sender_crud.delete_all(db)
-
     users_request_url = 'https://randomuser.me/api/?results=25'
     req = requests.get(users_request_url).json()
 
